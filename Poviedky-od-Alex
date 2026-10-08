@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poviedky od Alex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #fcf8f5;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+        .story-card {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .story-card h2 {
+            color: #2980b9;
+        }
+        .excerpt {
+            font-style: italic;
+            color: #555;
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            margin: 15px 0;
+        }
+        .btn {
+            background-color: #FFDD00;
+            color: #000;
+            padding: 12px 24px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .btn:hover {
+            background-color: #f1c40f;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Poviedky od Alex</h1>
+        <p class="subtitle">Miesto pre zaujímavé príbehy o ľuďoch, vzťahoch a nečakaných zvratoch.</p>
+    </header>
+
+    <!-- Prvá poviedka: Vojna myšlienok -->
+    <div class="story-card">
+        <p style="color: #9b5d4b; font-weight: bold; font-size: 0.85em;">AUTORSKÁ POVIEDKA</p>
+        <h2>Vojna myšlienok</h2>
+        <p>Príbeh Marty a Šimona o strachu, druhej šanci a dôvere.</p>
+        
+        <div class="excerpt">
+            <p>Marta sedela v rohu postele na internátnej izbe a pozerala von oknom. Záhrada pod oknom bola zaliata slnkom...</p>
+        </div>
+
+        <h3>Chceš vedieť, čo sa stane ďalej?</h3>
+        <p>Prečítaj si kompletný záver príbehu priamo na webe.</p>
+        
+        <!-- Tu neskôr vložíš odkaz z Buy Me a Coffee -->
+        <a href="SEM_VLOZIS_ODKAZ_Z_BUY_ME_A_COFFEE" target="_blank" class="btn">Kúpiť celý príbeh za 2,99 €</a>
+    </div>
+
+    <!-- Druhá poviedka: Týždeň s nepriateľom -->
+    <div class="story-card">
+        <p style="color: #9b5d4b; font-weight: bold; font-size: 0.85em;">AUTORSKÁ POVIEDKA</p>
+        <h2>Týždeň s nepriateľom</h2>
+        <p>Súťaž „Nečakané priateľstvá“ a týždeň izolácie s vaším opakom o 80 000 €.</p>
+        
+        <div class="excerpt">
+            <p>Súťaž „Nečakané priateľstvá“ mala odštartovať v televíznej reality show 10. augusta 2024. Moderátorom bol Roman Kusí...</p>
+        </div>
+        
+        <p><em>(Pokračovanie tejto poviedky pripravujem...)</em></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Poviedky od Alex</p>
+    </footer>
+
+</body>
+</html>
